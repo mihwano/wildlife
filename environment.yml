@@ -1,0 +1,35 @@
+name: wildlife
+channels:
+- !!python/unicode
+  'defaults'
+dependencies:
+- !!python/unicode
+  'anaconda-client=1.6.3=py35_0'
+- !!python/unicode
+  'bokeh=0.12.5=py35_0'
+- !!python/unicode
+  'nb_conda=2.0.0=py35_0'
+- !!python/unicode
+  'nb_conda_kernels=2.0.0=py35_0'
+- !!python/unicode
+  'numpy=1.12.1=py35_0'
+- !!python/unicode
+  'pandas=0.19.2=np112py35_1'
+- !!python/unicode
+  'pip=9.0.1=py35_1'
+- !!python/unicode
+  'python=3.5.3=1'
+- !!python/unicode
+  'setuptools=27.2.0=py35_0'
+- !!python/unicode
+  'tqdm=4.11.2=py35_0'
+- pip:
+  - folium==0.3.0
+  - geopy==1.11.0
+  - geotiler==0.11.0
+  - nb-anacondacloud==1.2.0
+  - nb-conda==2.0.0
+  - pyproj==1.9.5.1
+  - virtualenv==15.1.0
+prefix: !!python/unicode '/home/gilles/anaconda2/envs/wildlife'
+
