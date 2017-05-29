@@ -40,4 +40,4 @@ data.update_plot(dfplot, sourceplot, controls)
 data.update_map(df, source, controls)
 
 curdoc().add_root(l)
-#show(l)
+show(l)
