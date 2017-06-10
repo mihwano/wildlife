@@ -7,7 +7,7 @@ from bokeh.plotting import show
 from bokeh.models import Div
 
 
-url = '/home/gilles/projects/wildlife/aus_cetacae.csv'
+url = 'https://raw.githubusercontent.com/mihwano/wildlife/master/aus_cetacae.csv'
 df, source, source.data = data.datasource_map(url)
 hyperlinks = Div(text=gui.html_hyperlink(list(pd.unique(df['species']))), width=600)
 

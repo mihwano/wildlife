@@ -5,7 +5,10 @@ from datetime import datetime
 from bokeh.models import ColumnDataSource
 from geopy.geocoders import Nominatim
 from geopy.distance import great_circle
+import requests
+import io
 import pyproj
+import pdb
 
 def load_data(url):
     return pd.read_csv(url, sep='\t')
