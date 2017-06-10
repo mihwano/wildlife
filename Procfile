@@ -1,1 +1,1 @@
-web: bokeh serve --num-procs=0 --port $PORT --show --address=0.0.0.0 --use-xheaders master.py
+web: bokeh serve --show --port $PORT --host=aus-cetacae.herokuapp.com --host=* --address=0.0.0.0 --use-xheaders master.py
