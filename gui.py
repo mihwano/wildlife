@@ -42,7 +42,6 @@ def display_map(datasource, location_lon, location_lat):
                                   ('Date', '@eventdate')])
     output_file("wildlife_plot.html")
     mapfig.circle(x="lon", y="lat", source=datasource, size=5, color="color", alpha=0.7)
-    mapfig.scatter(x=location_lon, y=location_lat, marker='x', size=20)
     return mapfig
 
 
